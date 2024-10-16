@@ -1,4 +1,4 @@
-name: "ASP.NET Core CI/CD Pipeline" # Nuevo comentario
+name: "ASP.NET Core CI/CD Pipeline"
 
 on:
   push:
@@ -12,4 +12,4 @@ jobs:
   ci-pipeline:
     uses: guillipa1993/devops-pipelines-ci-cd/.github/workflows/dotnet-ci.yml@main
     with:
-      dotnet-version: '6.0'
+      dotnet-version: "6.0"
